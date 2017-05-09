@@ -1,0 +1,100 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 24, 2017, 2:57:43 AM
+    Author     : McGradroy
+*/
+body{
+    background-color: #303030;
+    color: #ffffff;
+}
+.title{
+    font-family:"Orbitron", sans-serif;
+    font-size:84px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.timer_session{
+    width:500px;
+    border:solid yellow 5px;
+    background-color:green;
+    border-radius:10%;
+    margin:auto;
+    padding:30px 30px 20px 30px;
+    cursor:pointer;
+}
+.timer_break{
+    width:500px;
+    border:solid yellow 5px;
+    background-color:red;
+    border-radius:10%;
+    margin:auto;
+    padding:30px 30px 20px 30px;
+    cursor:pointer;
+}
+
+.session_name{
+    font-family:"Orbitron", sans-serif;
+    font-size:30px;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom: 30px;
+}
+.time_left{
+    font-family:"Signika", sans-serif;
+    font-size:100px;
+    text-align:center;
+    margin-bottom: 30px;
+}
+.control{
+    width:500px;
+    margin:auto;
+    margin-top:30px;
+    padding:0px 0px 20px 0px;
+}
+.control .session_control,.break_control{
+}
+.control .control_title{
+    text-align:center;
+    font-family:"Orbitron", sans-serif;
+    font-size:18px;
+    text-align:center;
+}
+.control .control_body{
+    width:220px;
+    margin:auto;
+    text-align:center;
+}
+.control .button{
+    font-size:30px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color:#303030;
+}
+.control .time{
+    width:140px;
+    font-family:"Signika", sans-serif;
+    font-size:30px;
+    display:inline-block;
+    text-align:center;
+}
+footer{
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top:50px;
+}
+footer div{
+    color:#ffffff;
+    font-family: "Droid Sans";
+    font-size: 15px;
+}
+footer div a{
+    font-family: "Yellowtail";
+    color:#ffffff;
+}
